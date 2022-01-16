@@ -84,4 +84,4 @@ async def on_message(message):
         await asyncio.sleep(1)
         await message.author.send('мур мур мур мур мяу мяу', delete_after=5.0)
 
-client.run(settings['token'])
+client.run('TOKEN')
